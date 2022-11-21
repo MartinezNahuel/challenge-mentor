@@ -2,30 +2,37 @@
     max-width: 100%;
 }
 
+.nav-link:hover{
+  color: hsl(5, 85%, 63%);
+}
+
 .portada {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 30px;
+    gap: 30px;
     grid-template-areas:
         "base  aside"
         "footer footer";
 }
 
 .base {
-    background-color: red;
     grid-area: base;
 }
 
 .aside {
-    background-color: blue;
+
     grid-area: aside;
+    text-align: center;
 }
 
 .footer {
-    background-color: green;
+
     grid-area: footer;
     display: flex;
+    justify-content: space-between;
+    height: 30%;
 }
 
 .portada_texto {
@@ -34,3 +41,10 @@
     align-items: center;
 }
 
+.img_footer {
+    max-width: 80%;
+}
+
+.tarjeta {
+    display: flex;
+}
