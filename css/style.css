@@ -25,6 +25,12 @@ ul {
   font-size: 0.8rem;
 }
 
+hr {
+  color: hsl(36deg, 100%, 99%);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .portada_img {
   max-width: 100%;
   margin-top: 20px;
@@ -40,6 +46,35 @@ ul {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: hsl(236deg, 13%, 42%);
+}
+
+.aside {
+  background-color: hsl(240deg, 100%, 5%);
+}
+
+.aside h2 {
+  color: orange;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding: 20px;
+  font-size: 1.4rem;
+}
+
+.aside_title {
+  color: hsl(36deg, 100%, 99%);
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 20px;
+  height: 1px;
+}
+
+.aside p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: hsl(233deg, 8%, 79%);
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

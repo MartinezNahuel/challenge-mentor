@@ -15,3 +15,31 @@
     color: $Darkgrayishblue;
 }
 
+.aside{
+    background-color: $Verydarkblue;
+}
+
+.aside h2{
+    color: orange;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+
+.aside_title{
+    color: $Off-white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    padding: 20px;
+    height: 1px;
+}
+
+.aside p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: $Grayishblue;
+    padding-left:20px;
+    padding-bottom:10px;
+}
