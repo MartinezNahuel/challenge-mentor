@@ -1,0 +1,36 @@
+.portada_img {
+    max-width: 100%;
+}
+
+.portada {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 30px;
+    grid-template-areas:
+        "base  aside"
+        "footer footer";
+}
+
+.base {
+    background-color: red;
+    grid-area: base;
+}
+
+.aside {
+    background-color: blue;
+    grid-area: aside;
+}
+
+.footer {
+    background-color: green;
+    grid-area: footer;
+    display: flex;
+}
+
+.portada_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
