@@ -16,3 +16,9 @@ hr{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+@media (min-width:1200px){
+    .boton:hover{
+        background-color:$Verydarkblue;
+    }
+    }

@@ -86,3 +86,58 @@ h4:hover{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
+
+@media (min-width:1200px){
+    .portada_img{
+        max-width: 100%;
+    }
+
+    .portada {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 30px;
+        grid-template-areas:
+            "base  aside"
+            "footer footer";
+    }
+    
+    .base {
+        grid-area: base;
+    }
+    
+    .aside {
+        grid-area: aside;
+        margin-top: 20px;
+    }
+    
+    .footer {
+    
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+        height: 40%;
+        margin-top: 20px;
+    }
+    
+    .portada_texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_footer {
+        width: 120px;
+        margin-left: 10px;
+    }
+    
+    .tarjeta {
+        display: flex;
+}
+.nav-link:hover{
+    color:$red;
+}
+.aside_title:hover{
+    color: orange;
+}
+}
