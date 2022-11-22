@@ -77,4 +77,47 @@ hr {
   padding-bottom: 10px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta {
+  display: flex;
+  padding-left: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img_footer {
+  width: 100px;
+}
+
+span {
+  padding-left: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  color: hsl(233deg, 8%, 79%);
+  font-size: 1rem;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+h4:hover {
+  color: hsl(5deg, 85%, 63%);
+}
+
+.tarjeta p {
+  padding: 10px;
+  color: hsl(236deg, 13%, 42%);
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=style.css.map */
